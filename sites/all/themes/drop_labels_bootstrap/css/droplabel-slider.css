@@ -1,0 +1,78 @@
+
+#fixWinMother {
+  padding: 0px;
+  overflow: hidden;
+}
+
+.fix-win {
+  width: 100%;
+  background: linear-gradient(0deg, lightgray, white);
+  position: relative;
+  border-bottom: solid 4px #069EDC;
+}
+
+.slider {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.thumbnail {
+  float: left;
+  margin: 10px 0px 10px 10px;
+  overflow: hidden;
+}
+
+.thumbnail p {
+  font-size: 12px;
+}
+
+.slide-thb {
+  position: relative;
+  cursor: pointer;
+}
+
+.slide-thb-caption {
+  color: white;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.next-bt {
+  color: black;
+  color: #046992;
+  font-weight: 900;
+  font-size: 20px;
+  position: relative;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0);
+  height: inherit;
+  width: 35px;
+  border: solid 4px #069EDC;
+  border-bottom: none;
+  transition: 3s;
+  transition-property: background;
+  cursor: pointer;
+  border-left: none;
+  z-index: 2;
+  float: right;
+}
+
+.next-bt:hover {
+  background: rgba(255, 255, 255, 0.6);
+  transition: 0.5s;
+}
+
+.next-bt:first-of-type {
+  border-right: none;
+  border-left: solid 4px #069EDC;
+  float: left;
+}
+
+.next-bt span {
+  position: absolute;
+  left: 6px;
+}
+
+/*# sourceMappingURL=style.css.map */

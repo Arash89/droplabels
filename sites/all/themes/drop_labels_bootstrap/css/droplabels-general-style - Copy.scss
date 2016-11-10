@@ -1,0 +1,194 @@
+/**
+ * Place your custom styles here.
+ */
+$mainColor: rgb(6, 158, 219);
+$marginBackColor: lightgray;
+$mainBackColor: #fff;
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+@import url(https://fonts.googleapis.com/css?family=Muli:400,300);
+
+body {
+  font-family: "Open Sans", helvetica, sans-serif;
+  font-weight: 400; 
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight: 300;
+}
+
+.img-thumb-helpus {
+	max-height: 130px; 
+}
+
+.thumbnail.helpus {
+    min-height: 300px;
+}
+
+// ------------------------------------------------  new from here
+.navbar-default {
+	background-color: #fff;
+	border-color: rgba(6,158,219,1);
+}
+
+.row-slider {
+	margin-top: 20px;
+}
+
+.droplabels-title {
+	margin-top: 10px;
+}
+
+.droplabels-title a {
+	display: block;
+	float: none;
+	font-size: 30px;
+	font-weight: 300;
+	margin-left: 0px;
+	color: #777;
+	height: 50px;
+	padding: 15px 15px;
+	line-height: 20px;
+	// padding-bottom: -7px;
+}
+
+@media (min-width: 992px) {
+	.droplabels-title a {
+		font-size: 38px;
+	}
+}
+
+.droplabels-title a:hover, .droplabels-title a:focus  {
+    text-decoration: none;
+    color: #5e5e5e;
+    background-color: transparent;
+}
+
+.droplabels-slogan .lead {
+    font-size: 13px;
+}
+
+@media (min-width: 992px){
+	.droplabels-slogan .lead {
+	    font-size: 16px;
+	}
+}
+
+.logo {
+	position: relative;
+	margin-bottom: -58px;
+}
+
+.logo img{
+	width: 75px;
+	position: relative;
+	top: -67px;
+	margin-left: 15px;
+}
+
+@media (min-width: 768px) {
+	.logo img{
+		width: 100px;
+	}
+}
+
+@media (min-width: 768px) {
+	.navbar-nav > li > a {
+	    padding-top: 15px;
+	    padding-bottom: 15px;
+	}
+}
+
+.navbar-toggle {
+	top: -46px;
+	margin-bottom: -46px;
+}
+
+@media (min-width: 768px) {
+	.navbar-toggle {
+		top: 0px;
+		margin-bottom: 0px;
+	}
+}
+
+.row.aside-in {
+	position: relative;
+}
+
+.aside-in aside {
+	position: absolute;
+	top: 97px;
+	opacity: 0;
+	z-index: 100;
+	// border-radius: 0px;
+}
+
+.aside-in .well {
+	border-radius: 0px;
+}
+
+.ArashJanPHP {
+	display: none;
+}
+
+.nolink {
+	cursor: pointer;
+}
+
+.aside-close {
+	position: absolute;
+	right: 30px;
+	top: 10px;
+	border: solid 1px black;
+	color: rgb(0, 0, 0);
+	border-radius: 50%;
+	font-weight: 300;
+	padding: 5px 5px;
+	font-weight: 300; 
+}
+
+[id|="player_droplabels_col"] {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+
+// Making Background fix
+
+body, #navbar {
+	background-color: $marginBackColor;
+}
+
+.ribbon {
+	padding-left: 0px;
+    padding-right: 0px;
+}
+
+.menu-bottons, .name-slogan {
+	background-color: $mainBackColor;
+}
+
+.main-container.container {
+	background-color: $mainBackColor;
+	padding-top: 120px;
+
+}
+
+.front-header .main-container.container {
+ 	padding-top: 97px;
+}
+
+.region.region-content {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.front-container {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.front-container .region.region-content {
+	padding-left: 0px;
+	padding-right: 0px;
+}

@@ -1,0 +1,444 @@
+/**
+ * Place your custom styles here.
+ */
+$mainColor: rgb(6, 158, 219);
+$marginBackColor: lightgray;
+$mainBackColor: #fff;
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+@import url(https://fonts.googleapis.com/css?family=Muli:400,300);
+
+body {
+  font-family: "Open Sans", helvetica, sans-serif;
+  font-weight: 400; 
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight: 300;
+}
+
+.img-thumb-helpus {
+	max-height: 130px; 
+}
+
+.thumbnail.helpus {
+    min-height: 300px;
+}
+
+// ------------------------------------------------  new from here
+.navbar-default {
+	background-color: #fff;
+	border-color: rgba(6,158,219,1);
+	border: none;
+}
+
+.row-slider {
+	margin-top: 20px;
+}
+
+.droplabels-title {
+	margin-top: 10px;
+}
+
+.droplabels-title a {
+	display: block;
+	float: none;
+	font-size: 20px;
+	font-weight: 300;
+	margin-left: 0px;
+	color: #777;
+	height: 21px;
+	padding: 0px 15px 15px 15px;
+	line-height: 20px;
+}
+
+@media (min-width: 450px) {
+	.droplabels-title a {
+		font-size: 30px;
+		height: 50px;
+		padding: 15px 15px;
+	}	
+}
+
+@media (min-width: 992px) {
+	.droplabels-title a {
+		font-size: 38px;
+	}
+}
+
+.droplabels-title a:hover, .droplabels-title a:focus  {
+    text-decoration: none;
+    color: #5e5e5e;
+    background-color: transparent;
+}
+
+.droplabels-slogan .lead {
+    font-size: 12px;
+}
+
+@media (min-width: 450px){
+	.droplabels-slogan .lead {
+	    font-size: 13px;
+	}
+}
+
+@media (min-width: 992px){
+	.droplabels-slogan .lead {
+	    font-size: 16px;
+	}
+}
+
+.logo {
+	position: relative;
+	margin-bottom: -58px;
+}
+
+.logo img{
+	width: 60px;
+	position: relative;
+	top: -46px;
+	margin-left: -12px;
+}
+
+@media (min-width: 450px) {
+	.logo img{
+		width: 75px;
+		top: -67px;
+		margin-left: 15px;
+	}
+}
+
+@media (min-width: 768px) {
+	.logo img{
+		width: 100px;
+	}
+}
+
+@media (min-width: 768px) {
+	.navbar-nav > li > a {
+	    padding-top: 15px;
+	    padding-bottom: 15px;
+	}
+}
+
+.navbar-toggle {
+	top: -46px;
+	margin-bottom: -25px;
+}
+
+@media (min-width: 450px) {
+	.navbar-toggle {
+		top: -46px;
+	}
+}
+
+@media (min-width: 768px) {
+	.navbar-toggle {
+		top: 0px;
+		margin-bottom: 0px;
+	}
+}
+
+.row.aside-in {
+	position: relative;
+}
+
+.aside-in aside {
+	position: absolute;
+	top: 97px;
+	opacity: 0;
+	z-index: 100;
+	display: none;
+	// border-radius: 0px;
+}
+
+.aside-in .well {
+	border-radius: 0px;
+}
+
+.ArashJanPHP {
+	display: none;
+}
+
+.nolink {
+	cursor: pointer;
+}
+
+[id|="player_droplabels_col"] {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+
+.region.region-content {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.front-container {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.front-container .region.region-content {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+
+.front-container .first-page-section {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+
+.row.first-page-player {
+	// margin-left: -30px;
+	// margin-right: -30px;
+}
+
+
+// Making Background fix
+
+body, #navbar {
+	background-color: $marginBackColor;
+}
+
+.ribbon {
+	padding-left: 0px;
+    padding-right: 0px;
+}
+
+.menu-bottons, .name-slogan {
+	background-color: $mainBackColor;
+}
+
+.main-container.container {
+	background-color: $mainBackColor;
+	padding-top: 44px;
+}
+
+.main-container.container.front-container {
+ 	padding-top: 8px;
+}
+
+@media (min-width: 450px) {
+	.main-container.container {
+		padding-top: 74px;
+	}
+
+	.main-container.container.front-container {
+	 	padding-top: 40px;
+	}	
+}
+
+@media (min-width: 768px) {
+	.main-container.container {
+		padding-top: 120px;
+	}
+
+	.main-container.container.front-container {
+	 	padding-top: 87px;
+	}	
+}
+
+// title of posts h2 and .h2
+h2, .h2 {
+	font-size: 20px
+}
+
+@media (min-width: 450px) {
+	h2, .h2 {
+		font-size: 25px
+	}
+}
+
+
+@media (min-width: 768px) {
+	h2, .h2 {
+		font-size: 30px
+	}
+}
+
+
+// title of Page h2 and .h2
+h1, .h1 {
+	font-size: 25px
+}
+
+@media (min-width: 450px) {
+	h1, .h1 {
+		font-size: 30px
+	}
+}
+
+
+@media (min-width: 768px) {
+	h1, .h1 {
+		font-size: 36px
+	}
+}
+
+.page-header {
+	padding-left: 10px;
+}
+
+.container.menu-bottons {
+	box-shadow: 0px 1px 0px 0 rgba(150,150,150, 0.2),
+			 0 2px 0px 0 rgba(150,150,150, 0.18),
+			 0 4px 0px 0 rgba(150,150,150, 0.13),
+			 0 6px 0px 0 rgba(150,150,150, 0.12),
+			 0 8px 0px 0 rgba(150,150,150, 0.1), 
+			 0 10px 0px 0 rgba(150,150,150, 0.07),
+			 0 12px 0px 0 rgba(150,150,150, 0.05),
+			 0px 10px 10px -1px rgba(0, 0, 0, 0.2);
+}
+
+.container.aboutus, .helpus-title {
+	background-color: rgb(6, 158, 219);
+}
+
+.text-white {
+	color: #fff;
+}
+
+.aboutus .right-col {
+	background-color: black;
+	height: inherit;
+	padding-left: 0px;
+	margin-bottom: -43px;
+}
+
+@media (min-width: 768px) {
+	.aboutus .right-col {
+		margin-bottom: -43px;
+	}
+}
+
+@media (min-width: 992px) {
+	.aboutus .right-col {
+		margin-bottom: -58px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.aboutus .right-col {
+		margin-bottom: -77px;
+	}
+}
+
+// @media (min-width: 992px) {
+// 	.aboutus .right-col {
+// 		margin-bottom: -77px;
+// 	}
+// }
+
+.aboutus .left-col {
+	margin-bottom: -40px;
+}
+
+.width--100 {
+	width: 100%;
+}
+
+
+.row.founds-box {
+	position: relative;
+	top: -110px;
+	font-size: 12px;
+}
+
+
+.box-like-background {
+	border: solid 1px lightgray;
+	padding: 5px;
+	border-radius: 38px;
+}
+
+.bandry {
+	width: 100%;
+	background-color: $mainColor;
+	height: 10px;
+	margin-bottom: 20px;
+}
+
+
+.stay-update {
+	font-size: 30px;
+}
+
+.glyphicon-envelope {
+	color: $mainColor;
+	position: relative;
+    top: 2px;
+    font-size: 28px;
+}
+
+.donate-in {
+	margin-bottom: 20px;
+}
+
+.droplabels-list {
+	float: left;	
+}
+
+.vertical-throw-img {
+	float: left;
+	height: 334px;
+	display: none
+}
+
+@media (min-width: 768px) {
+	.vertical-throw-img {
+		display: block
+	}
+}
+
+@media (min-width: 992px) {
+	.vertical-throw-img {
+		height: 300px;
+	}
+}
+
+.aboutus-p-in {
+	padding-top: 25px;
+	padding-left: 30px;
+}
+
+.droplabels-list {
+	padding-top: 40px;
+	padding-left: 80px;
+}
+
+@media (min-width: 768px) {
+	.droplabels-list {
+		padding-top: 60px;
+		padding-left: 11px;
+	}
+}
+
+@media (min-width: 992px) {
+	.droplabels-list {
+		padding-top: 10px;
+		padding-left: 30px;
+	}
+}
+
+#ABOUT, #THE_TRUTH, #HELP_US {
+	position: relative;
+	top: -140px;
+}
+
+.label-title {
+	margin-top: 20px;
+    font-size: 30px;
+}
+
+.label-axon {
+    font-size: 16px;
+    font-style: italic;
+}
+
+.label-define {
+	font-size: 16px;
+}
