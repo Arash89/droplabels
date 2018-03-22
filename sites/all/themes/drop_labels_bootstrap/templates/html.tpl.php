@@ -61,6 +61,12 @@ javascriptPageName("undefined");
   <link rel="profile" href="<?php print $grddl_profile; ?>" />
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="image_src" href="http://droplabels.org/sites/all/themes/drop_labels_bootstrap/logo.png" />
+
+  <meta property="og:image" content="http://droplabels.org/sites/all/themes/drop_labels_bootstrap/logo.png" />
+  <meta property="og:title" content="DROPLABELS" />
+  <meta property="og:description" content="I am more than a label, I am me." />
+
   <?php print $head; ?>
   <title><?php print $head_title; ?></title>
   <?php print $styles; ?>

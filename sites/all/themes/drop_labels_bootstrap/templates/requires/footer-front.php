@@ -25,7 +25,7 @@
 
           <div class="col-md-2">
             <p>
-              <a href="#"> </a>
+              <a href="https://www.droplabels.org" target="_blank"><img src="http://droplabels.org/sites/all/themes/drop_labels_bootstrap/logo.png" style="max-width: 66px"></a>
             </p>
             <p>
               <a href="https://www.givingtuesday.org" target="_blank"><img src="http://droplabels.org/sites/all/themes/drop_labels_bootstrap/images/icons/givingtuesday.png" style="max-width: 66px"></a>

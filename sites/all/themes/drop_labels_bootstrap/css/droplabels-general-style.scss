@@ -461,3 +461,28 @@ h1, .h1 {
 .synonyms {
     color: rgb(6, 158,219);
 }
+
+.donat-menu-in {
+	float: right;
+	display: none;
+	position: absolute;
+	z-index: 100;
+}
+
+@media (min-width: 450px) {
+	.donat-menu-in {
+		display: block;
+		top: 12px;
+		right: -1px;
+		max-width: 118px;
+	}
+}
+
+@media (min-width: 768px) {
+	.donat-menu-in {
+		top: 50px;
+		right: 25px;
+		max-width: 120px;
+	}
+}
+
