@@ -28,7 +28,7 @@
               <a href="https://www.droplabels.org" target="_blank"><img src="http://droplabels.org/sites/all/themes/drop_labels_bootstrap/logo.png" style="max-width: 66px"></a>
             </p>
             <p>
-              <a href="https://www.givingtuesday.org" target="_blank"><img src="http://droplabels.org/sites/all/themes/drop_labels_bootstrap/images/icons/givingtuesday.png" style="max-width: 66px"></a>
+              <a href="https://www.givingtuesday.org" target="_blank"><img src="http://droplabels.org/sites/all/themes/drop_labels_bootstrap/images/icons/givingtuesday.jpg" style="max-width: 66px"></a>
             </p>
             <p>
               <a href="#"> </a>

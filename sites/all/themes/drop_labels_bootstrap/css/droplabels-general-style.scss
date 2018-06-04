@@ -4,6 +4,8 @@
 $mainColor: rgb(6, 158, 219);
 $marginBackColor: lightgray;
 $mainBackColor: #fff;
+$grayText: #545454;
+$backgroundGray: #d3d3d3;
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
 @import url(https://fonts.googleapis.com/css?family=Muli:400,300);
@@ -346,6 +348,7 @@ h1, .h1 {
 	position: relative;
 	top: -110px;
 	font-size: 12px;
+	color: $grayText;
 }
 
 
@@ -434,8 +437,9 @@ h1, .h1 {
 }
 
 .container.label-def {
-	background-color: black;
-    color: white;
+	background-color: $backgroundGray;
+    color: $grayText;
+    text-shadow: 2px 2px 20px $grayText;
     padding-bottom: 29px;
     margin-top: 18px;
 }
@@ -469,20 +473,38 @@ h1, .h1 {
 	z-index: 100;
 }
 
+#linkedinDropIconSmall, #instagramDropIconSmall {
+	display: none;
+}
+
 @media (min-width: 450px) {
 	.donat-menu-in {
 		display: block;
 		top: 12px;
 		right: -1px;
-		max-width: 118px;
+		max-width: 200px;
 	}
+}
+
+@media (min-width: 600px) {
+	.donat-menu-in {
+		display: block;
+		top: 12px;
+		right: -1px;
+		max-width: 200px;
+	}
+
+	#linkedinDropIconSmall, #instagramDropIconSmall {
+		display: inline;
+	}
+
 }
 
 @media (min-width: 768px) {
 	.donat-menu-in {
 		top: 50px;
 		right: 25px;
-		max-width: 120px;
+		max-width: 200px;
 	}
 }
 

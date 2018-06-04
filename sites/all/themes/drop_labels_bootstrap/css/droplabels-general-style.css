@@ -53,11 +53,13 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     padding: 15px 15px;
   }
 }
+
 @media (min-width: 992px) {
   .droplabels-title a {
     font-size: 38px;
   }
 }
+
 .droplabels-title a:hover, .droplabels-title a:focus {
   text-decoration: none;
   color: #5e5e5e;
@@ -73,11 +75,13 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-size: 13px;
   }
 }
+
 @media (min-width: 992px) {
   .droplabels-slogan .lead {
     font-size: 16px;
   }
 }
+
 .logo {
   position: relative;
   margin-bottom: -58px;
@@ -97,17 +101,20 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     margin-left: 15px;
   }
 }
+
 @media (min-width: 768px) {
   .logo img {
     width: 100px;
   }
 }
+
 @media (min-width: 768px) {
   .navbar-nav > li > a {
     padding-top: 15px;
     padding-bottom: 15px;
   }
 }
+
 .navbar-toggle {
   top: -46px;
   margin-bottom: -25px;
@@ -118,12 +125,14 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     top: -46px;
   }
 }
+
 @media (min-width: 768px) {
   .navbar-toggle {
     top: 0px;
     margin-bottom: 0px;
   }
 }
+
 .row.aside-in {
   position: relative;
 }
@@ -199,20 +208,20 @@ body, #navbar {
   .main-container.container {
     padding-top: 74px;
   }
-
   .main-container.container.front-container {
     padding-top: 40px;
   }
 }
+
 @media (min-width: 768px) {
   .main-container.container {
     padding-top: 120px;
   }
-
   .main-container.container.front-container {
     padding-top: 87px;
   }
 }
+
 h2, .h2 {
   font-size: 20px;
 }
@@ -222,11 +231,13 @@ h2, .h2 {
     font-size: 25px;
   }
 }
+
 @media (min-width: 768px) {
   h2, .h2 {
     font-size: 30px;
   }
 }
+
 h1, .h1 {
   font-size: 25px;
 }
@@ -236,11 +247,13 @@ h1, .h1 {
     font-size: 30px;
   }
 }
+
 @media (min-width: 768px) {
   h1, .h1 {
     font-size: 36px;
   }
 }
+
 .page-header {
   padding-left: 10px;
 }
@@ -269,16 +282,19 @@ h1, .h1 {
     margin-bottom: -43px;
   }
 }
+
 @media (min-width: 992px) {
   .aboutus .right-col {
     margin-bottom: -58px;
   }
 }
+
 @media (min-width: 1200px) {
   .aboutus .right-col {
     margin-bottom: -77px;
   }
 }
+
 .aboutus .left-col {
   margin-bottom: -40px;
 }
@@ -291,6 +307,7 @@ h1, .h1 {
   position: relative;
   top: -110px;
   font-size: 12px;
+  color: #545454;
 }
 
 .bandry {
@@ -330,11 +347,13 @@ h1, .h1 {
     display: block;
   }
 }
+
 @media (min-width: 992px) {
   .vertical-throw-img {
     height: 300px;
   }
 }
+
 .aboutus-p-in {
   padding-top: 25px;
   padding-left: 30px;
@@ -351,12 +370,14 @@ h1, .h1 {
     padding-left: 11px;
   }
 }
+
 @media (min-width: 992px) {
   .droplabels-list {
     padding-top: 10px;
     padding-left: 30px;
   }
 }
+
 #ABOUT, #THE_TRUTH, #MOVEMENT {
   position: relative;
   top: -100px;
@@ -367,9 +388,11 @@ h1, .h1 {
     top: -140px;
   }
 }
+
 .container.label-def {
-  background-color: black;
-  color: white;
+  background-color: #d3d3d3;
+  color: #545454;
+  text-shadow: 2px 2px 20px #545454;
   padding-bottom: 29px;
   margin-top: 18px;
 }
@@ -403,20 +426,35 @@ h1, .h1 {
   z-index: 100;
 }
 
+#linkedinDropIconSmall, #instagramDropIconSmall {
+  display: none;
+}
+
 @media (min-width: 450px) {
   .donat-menu-in {
     display: block;
     top: 12px;
     right: -1px;
-    max-width: 118px;
+    max-width: 200px;
   }
 }
+
+@media (min-width: 600px) {
+  .donat-menu-in {
+    display: block;
+    top: 12px;
+    right: -1px;
+    max-width: 200px;
+  }
+  #linkedinDropIconSmall, #instagramDropIconSmall {
+    display: inline;
+  }
+}
+
 @media (min-width: 768px) {
   .donat-menu-in {
     top: 50px;
     right: 25px;
-    max-width: 120px;
+    max-width: 200px;
   }
 }
-
-/*# sourceMappingURL=droplabels-general-style.css.map */

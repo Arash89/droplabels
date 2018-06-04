@@ -296,8 +296,8 @@ javascriptPageName("front");
               <div class="col-sm-5 col-sm-offset-1" >
               <img src="sites/all/themes/drop_labels_bootstrap/images/labels/droplabels-funds-03.png" class="box-like-background width--100">
                
-                <div class="row founds-box text-white" style="top:-70px">
-                  <div class="col-xs-10 col-xs-offset-1 text-white">
+                <div class="row founds-box" style="top:-70px">
+                  <div class="col-xs-10 col-xs-offset-1">
                     If you are able to donate in any way that is the most helpful thing to keep us spreading the word.
                   </div> 
                 </div>
@@ -306,8 +306,8 @@ javascriptPageName("front");
               <div class="col-sm-5">
               <img src="sites/all/themes/drop_labels_bootstrap/images/labels/droplabels-friends-03.png" class="box-like-background width--100">
                
-                <div class="row founds-box text-white">
-                  <div class="col-xs-10 col-xs-offset-1 text-white">
+                <div class="row founds-box">
+                  <div class="col-xs-10 col-xs-offset-1">
                     Spread the word! Try to encourage others to join the cause by logging in to post their personal experience of having a label video, and share the video around once it's posted to the site.
                   </div> 
                 </div>  
@@ -321,8 +321,8 @@ javascriptPageName("front");
               <div class="col-sm-5 col-sm-offset-1" >
               <img src="sites/all/themes/drop_labels_bootstrap/images/labels/droplabels-videos-03.png" class="box-like-background width--100">
                
-                <div class="row founds-box text-white">
-                  <div class="col-xs-10 col-xs-offset-1 text-white">
+                <div class="row founds-box">
+                  <div class="col-xs-10 col-xs-offset-1">
                     Are you a social connector and want to be part of the Drop Labels movement? Want to add your video and or know someone who would like to share their label(s) through a video? If so, create a video, log in, and upload the video. Once approved, it will be shared through our page and social networks.
                   </div> 
                 </div>
@@ -331,8 +331,8 @@ javascriptPageName("front");
               <div class="col-sm-5">
               <img src="sites/all/themes/drop_labels_bootstrap/images/labels/droplabels-volunteers-03.png" class="box-like-background width--100">
                
-                <div class="row founds-box text-white" style="top:-103px">
-                  <div class="col-xs-10 col-xs-offset-1 text-white">
+                <div class="row founds-box" style="top:-103px">
+                  <div class="col-xs-10 col-xs-offset-1">
                     We need help with filming stories, and spreading the videos! When there is an event or a large gatheirng, we need people to help spread our cause by telling people about the project and get them to lend us their stories of having labels.
                   </div> 
                 </div>  
