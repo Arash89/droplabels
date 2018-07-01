@@ -263,7 +263,7 @@ h1, .h1 {
 }
 
 .container.aboutus, .helpus-title {
-  background-color: #069edb;
+  background-color: #b1d5e4;
 }
 
 .text-white {
@@ -271,7 +271,7 @@ h1, .h1 {
 }
 
 .aboutus .right-col {
-  background-color: black;
+  background-color: #dadada;
   height: inherit;
   padding-left: 0px;
   margin-bottom: -43px;
@@ -312,7 +312,7 @@ h1, .h1 {
 
 .bandry {
   width: 100%;
-  background-color: #069edb;
+  background-color: #b1d5e4;
   height: 10px;
   margin-bottom: 20px;
 }
@@ -322,7 +322,7 @@ h1, .h1 {
 }
 
 .glyphicon-envelope {
-  color: #069edb;
+  color: #b1d5e4;
   position: relative;
   top: 2px;
   font-size: 28px;
@@ -457,4 +457,9 @@ h1, .h1 {
     right: 25px;
     max-width: 200px;
   }
+}
+
+.header-droplabels {
+  height: 10px;
+  background-color: #b1d5e4;
 }

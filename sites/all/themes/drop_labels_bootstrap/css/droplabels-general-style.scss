@@ -1,7 +1,7 @@
 /**
  * Place your custom styles here.
  */
-$mainColor: rgb(6, 158, 219);
+$mainColor: #b1d5e4;
 $marginBackColor: lightgray;
 $mainBackColor: #fff;
 $grayText: #545454;
@@ -297,7 +297,7 @@ h1, .h1 {
 }
 
 .container.aboutus, .helpus-title {
-	background-color: rgb(6, 158, 219);
+	background-color: $mainColor;
 }
 
 .text-white {
@@ -305,7 +305,7 @@ h1, .h1 {
 }
 
 .aboutus .right-col {
-	background-color: black;
+	background-color: #dadada;
 	height: inherit;
 	padding-left: 0px;
 	margin-bottom: -43px;
@@ -506,5 +506,11 @@ h1, .h1 {
 		right: 25px;
 		max-width: 200px;
 	}
+}
+
+.header-droplabels {
+//style="height:10px;background-color: rgb(6,158,219)"
+	height: 10px;
+	background-color: $mainColor;
 }
 

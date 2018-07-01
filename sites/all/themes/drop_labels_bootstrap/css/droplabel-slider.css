@@ -8,7 +8,7 @@
   width: 100%;
   background: linear-gradient(0deg, lightgray, white);
   position: relative;
-  border-bottom: solid 4px #069EDC;
+  border-bottom: solid 4px #b1d5e4;
 }
 
 .slider {
@@ -49,7 +49,7 @@
   background: rgba(255, 255, 255, 0);
   height: inherit;
   width: 35px;
-  border: solid 4px #069EDC;
+  border: solid 4px #b1d5e4;
   border-bottom: none;
   transition: 3s;
   transition-property: background;
@@ -66,7 +66,7 @@
 
 .next-bt:first-of-type {
   border-right: none;
-  border-left: solid 4px #069EDC;
+  border-left: solid 4px #b1d5e4;
   float: left;
 }
 

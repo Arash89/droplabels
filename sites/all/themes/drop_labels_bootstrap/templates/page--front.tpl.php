@@ -168,7 +168,7 @@ javascriptPageName("front");
         <div class="row">
           <div class="col-sm-7 left-col">
             <div class="col-xs-12">
-              <img src="sites/all/themes/drop_labels_bootstrap/images/labels/label-about-us-01.jpg">
+              <img src="sites/all/themes/drop_labels_bootstrap/images/labels/label-about-us-01.png">
             </div>
             <div class="col-xs-12 text-white aboutus-p-in">
               <p>
@@ -205,7 +205,7 @@ javascriptPageName("front");
       <div class="container">
           <div class="row">
               <div class="col-xs-12">
-                  <img src="sites/all/themes/drop_labels_bootstrap/images/labels/label-the-truth-01.jpg">    
+                  <img src="sites/all/themes/drop_labels_bootstrap/images/labels/label-the-truth-01.png">    
               </div>
           </div>
 
@@ -215,7 +215,7 @@ javascriptPageName("front");
 
                   <div class="col-xs-12 col-sm-4 text-center">
                    <div class="thumbnail fear">
-                        <img class="img-thumb-helpus" src="sites/all/themes/drop_labels_bootstrap/images/icons/droplabels-fear.svg" alt="FEAR DROPLABELS">
+                        <img class="img-thumb-helpus" src="sites/all/themes/drop_labels_bootstrap/images/icons/droplabels-fear.png" alt="FEAR DROPLABELS">
                         <div class="caption">
                           <h3>FEAR:</h3>
                           <p>
@@ -228,7 +228,7 @@ javascriptPageName("front");
 
                   <div class="col-xs-12 col-sm-4 text-center">
                    <div class="thumbnail VERIFY">
-                        <img class="img-thumb-helpus" src="sites/all/themes/drop_labels_bootstrap/images/icons/droplabels-verify.svg" alt="VERIFY DROPLABELS">
+                        <img class="img-thumb-helpus" src="sites/all/themes/drop_labels_bootstrap/images/icons/droplabels-verify.png" alt="VERIFY DROPLABELS">
                         <div class="caption">
                           <h3>VERIFY:</h3>
                           <p>
@@ -241,7 +241,7 @@ javascriptPageName("front");
 
                   <div class="col-xs-12 col-sm-4 text-center">
                    <div class="thumbnail ACTION">
-                        <img class="img-thumb-helpus" src="sites/all/themes/drop_labels_bootstrap/images/icons/droplabels-action.svg" alt="ACTION DROPLABELS">
+                        <img class="img-thumb-helpus" src="sites/all/themes/drop_labels_bootstrap/images/icons/droplabels-action.png" alt="ACTION DROPLABELS">
                         <div class="caption">
                           <h3>ACTION:</h3>
                           <p>
@@ -253,7 +253,7 @@ javascriptPageName("front");
               </div>
               <div class="row">
                 <div class="col-xs-12">
-                    <img src="sites/all/themes/drop_labels_bootstrap/images/labels/thetruth-horizontal-throw-01.jpg" class="width--100">
+                    <img src="sites/all/themes/drop_labels_bootstrap/images/labels/thetruth-horizontal-throw-01.png" class="width--100">
                 </div>
               </div>  
           </div>
@@ -270,7 +270,7 @@ javascriptPageName("front");
 
               <div class="row">
                 <div class="col-xs-12">
-                    <img src="sites/all/themes/drop_labels_bootstrap/images/labels/boxes-horizontal-throw-01.jpg" class="width--100" style="margin-bottom: 20px;">
+                    <img src="sites/all/themes/drop_labels_bootstrap/images/labels/boxes-horizontal-throw-01.png" class="width--100" style="margin-bottom: 20px;">
                 </div>
               </div>    
           </div>
